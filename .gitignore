@@ -1,0 +1,3 @@
+tmp/*
+db/*.txt
+db/words.csv
