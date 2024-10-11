@@ -3,4 +3,4 @@ source 'https://rubygems.org'
 
 gem "csv"
 gem "rainbow"
-gem "sqlite3-ruby"
+gem "sqlite3"
