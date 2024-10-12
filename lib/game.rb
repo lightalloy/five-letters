@@ -15,7 +15,7 @@ class Game
       user_word = STDIN.gets
       begin
         user_word = user_word.encode("UTF-8").strip.downcase
-      rescue Encoding::CompatibilityError => e
+      rescue Encoding::CompatibilityError, ArgumentError => e
         puts "Извини, не могу обработать - #{e}"
         next
       end
